@@ -11,7 +11,7 @@ const Addproducts = () => {
 
   const handleClick = (e) => { 
     e.preventDefault()
-    if(title&& category&& price&& rating){
+    if(title && category && price && rating){
       const formdata = new FormData();
       formdata.append("title",title);
       formdata.append("category",category);
